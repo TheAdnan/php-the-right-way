@@ -1,19 +1,17 @@
 ---
-title:   Built-in Web Server
 isChild: true
-anchor:  builtin_web_server
+title: Ugrađeni web server
+anchor: builtin_web_server
 ---
 
-## Built-in web server {#builtin_web_server_title}
+## Ugrađeni web server {#builtin_web_server_title}
 
-With PHP 5.4 or newer, you can start learning PHP without installing and configuring a full-fledged web server.
-To start the server, run the following command from your terminal in your project's web root:
+Od verzije 5.4, mozete početi sa učenjem PHP-a bez instaliranja i podešavanja zasebnog web servera.
+Za pokretanje servera, u folderu vašeg projekta, izvršite sljedeću komandu u terminalu:
 
-{% highlight console %}
-> php -S localhost:8000
-{% endhighlight %}
+    > php -S localhost:8000
 
-* [Learn about the built-in, command line web server][cli-server]
+* [Naučite više o ugrađenom web serveru][cli-server]
 
 
 [cli-server]: http://php.net/features.commandline.webserver
